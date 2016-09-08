@@ -3,21 +3,21 @@ package edu.orangecoastcollege.cs273.tipcalculator;
 /**
  * Created by mmizukami on 9/8/2016.
  */
-public class RestrantBill {
+public class RestaurantBill {
 
     private double mAmount;
     private double mTipPercent;
     private double mTipAmount;
     private double mTotalAmount;
 
-    public RestrantBill() {
+    public RestaurantBill() {
         mAmount = 0.0;
         mTipPercent = 0.0;
         mTipAmount = 0.0;
         mTotalAmount = 0.0;
     }
 
-    public RestrantBill(double mAmount, double mTipPercent) {
+    public RestaurantBill(double mAmount, double mTipPercent) {
         this.mAmount = mAmount;
         this.mTipPercent = mTipPercent;
         recaluculateAmount();

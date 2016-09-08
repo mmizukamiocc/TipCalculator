@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private SeekBar percentSeekBar;
 
     //Associate the controller with needed model
-    RestrantBill currentBill = new RestrantBill();
+    RestaurantBill currentBill = new RestaurantBill();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
