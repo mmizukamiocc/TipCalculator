@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             try{
                 double amount = Double.parseDouble(charSequence.toString()) / 100;
             currentBill.setAmount(amount);
+                tipTextView.setText(String.valueOf(currentBill.getTipAmount()));
             }
             catch (NumberFormatException e)
             {
