@@ -29,6 +29,7 @@ public class RestaurantBill {
 
     public void setAmount(double mAmount) {
         this.mAmount = mAmount;
+        recaluculateAmount();
     }
 
     public double getTipPercent() {
@@ -37,6 +38,7 @@ public class RestaurantBill {
 
     public void setTipPercent(double mTipPercent) {
         this.mTipPercent = mTipPercent;
+        recaluculateAmount();
     }
 
     public double getTipAmount() {
